@@ -1,4 +1,4 @@
-FROM python:3.9 as todolist
+FROM python:3.9 AS todolist
 LABEL authors="aconfear"
 
 COPY requirements.txt /tmp/
